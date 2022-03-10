@@ -18,39 +18,44 @@ public class LoginPage1 extends BasePage{
 	private By header=By.xpath("//img[@class='logo-icon margin-r-10']");
 	
 
-	//Encapsulation getter methods
+	
+	
 	/**
 	 * @return the emailId
 	 */
-	public WebElement getEmailId() {
+	public WebElement getEmailId() //Encapsulation getter methods
+	{
 		return getElement(emailId);
 	}
 	
 	/**
 	 * @return the password
 	 */
-	public WebElement getPassword() {
+	public WebElement getPassword() //Encapsulation getter methods
+	{
 		return getElement(password);
 	}
 	
 	/**
 	 * @return the loginButton
 	 */
-	public WebElement getLoginButton() {
+	public WebElement getLoginButton()//Encapsulation getter methods
+	{
 		return getElement(loginButton);
 	}
 	
 	/**
 	 * @return 
 	 */
-	public String getLoginPageHeader() {
+	public String getLoginPageHeader()//Encapsulation getter methods
+	{
 		return getPageHeader(header);
 	}
 	/**
 	 * @return 
 	 * @return title
 	 */
-	public String getLoginPageTitle()
+	public String getLoginPageTitle()//Encapsulation getter methods
 	{
 		return getPageTitle();
 	}

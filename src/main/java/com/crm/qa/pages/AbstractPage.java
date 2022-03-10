@@ -10,11 +10,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 
 
-public  abstract class Page {
+public  abstract class AbstractPage {
 WebDriver driver;
 WebDriverWait wait;
 
-public Page(WebDriver driver) {
+public AbstractPage(WebDriver driver) {
 	this.driver=driver;
 	this.wait=new WebDriverWait(this.driver,20);
 	
